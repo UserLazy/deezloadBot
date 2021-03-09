@@ -21,7 +21,7 @@ api_type1 = "https://api.deezer.com/search/{}/?q={}"
 api_type2 = "https://api.deezer.com/search/?q={}:\"{}\""
 song_default_image = "https://e-cdns-images.dzcdn.net/images/cover/1000x1000-000000-80-0-0.jpg"
 services_supported = ["spotify", "deezer"]
-comandss = ["start", "settings", "info", "shazam", "help"]
+comandss = ["start", "settings", "info", "get", "help"]
 settingss = ["quality", "tongue"]
 qualities = ["FLAC", "MP3_320", "MP3_256", "MP3_128"]
 send_image_track_query = "🎧 Track: %s \n👤 Artist: %s \n💽 Album: %s \n📅 Date: %s"
@@ -36,13 +36,13 @@ user_exist = "SELECT chat_id FROM CHAT_ID where chat_id = '%d'"
 share_message = "tg://msg?text=Start @%s for download all the songs which you want ;)" % bot_name
 start_message = "Welcome to @%s \nPress '/' to get commands list" % bot_name
 not_supported_links = "Sorry :( The bot doesn't support this link %s :("
-rate_link = "https://t.me/BotsArchive/298"
+rate_link = "https://t.me/animegrupindo"
 end_message = "FINISHED :) Rate me here %s" % rate_link
 
 help_message = (
 	"/start: Start the bot" +
 	"\n\n/settings: Manage settings" +
-	"\n\n/shazam: Identify a song by a voice or audio message (You can do without calling this command, just send the media)" +
+	"\n\n/get: Identify a song by a voice or audio message (You can do without calling this command, just send the media)" +
 	"\n\n/help: Show this message" +
 	"\n\n" +
 	"Just send a spotify or deezer link to download, or type what you are looking for"

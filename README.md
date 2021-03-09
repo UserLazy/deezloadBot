@@ -1,15 +1,16 @@
-# DeezloaderAn0n_bot
+# DeezloadBot
 This project has been created for integrate deezloader library in a Telegram bot.
 
 # Disclaimer
 
 - I am not responsible for the usage of this program by other people.
 - I do not recommend you doing this illegally or against Deezer's terms of service.
-- This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/lcenses/by-nc-sa/4.0/)
 
 ## Installation
 	apt install ffmpeg
-	git clone https://github.com/An0nimia/DeezloaderAn0n_bot.git
+	git clone https://github.com/Scroxy-X/deezloadBot
+	cd deezloadBot
 	pip3 install -r requirements.txt
 	chmod +x dwsongs-normal.py && ./dwsongs-normal.py
 
@@ -30,6 +31,6 @@ This project has been created for integrate deezloader library in a Telegram bot
 
 	[bot_info]
 	version = 2.0
-	creator = An0nimia
-	donation = https://www.paypal.me/An0nimia
-	group = https://t.me/DeezloaderRMX_group
+	creator = Ihsan
+	donation = https://trakteer.id/Scroxy
+	group = https://t.me/animegrupindo
